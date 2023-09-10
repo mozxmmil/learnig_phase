@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width:100%;
+}
+.contianer{
+    position: relative;
+    padding: 16px;
+    margin: 10px;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+
+.clock{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(196, 121, 29);
+    left: 50%;
+    top:70%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+    overflow: hidden ;
+}
